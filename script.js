@@ -1,6 +1,5 @@
 window.addEventListener("DOMContentLoaded", () => {
 
-    alert("JS読み込みOK");
 
     const ratings = document.querySelectorAll(".rating");
 
