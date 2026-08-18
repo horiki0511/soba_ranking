@@ -27,57 +27,27 @@
     text-align: center;
 }
 
+.data-score {
+    width: 30px;
+    text-align: center;
+}
+
 .bar {
     position: relative;
     width: 150px;
     height: 3px;
     background-color: #333;
-
 }
 
 .point {
     position: absolute;
     top: 50%;
+    left: 0%;
     width: 12px;
     height: 12px;
     background-color: #333;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-
-}
-
-.score-1 {
-    left: 20%;
-}
-
-.score-1-5 {
-    left: 30%;
-}
-
-.score-2 {
-    left: 40%;
-}
-
-.score-2-5 {
-    left: 50%;
-}
-
-.score-3 {
-    left: 60%;
-}
-
-.score-3-5 {
-    left: 70%;
-}
-
-.score-4 {
-    left: 80%;
-}
-
-.score-4-5 {
-    left: 90%;
-}
-
-.score-5 {
-    left: 100%;
+    /* アニメーション */
+    transition: left 1.5s ease-out;
 }
