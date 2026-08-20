@@ -51,3 +51,19 @@
     /* アニメーション */
     transition: left 1.5s ease-out;
 }
+
+.chart-area {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.rating-list {
+    flex: 0 0 auto;
+}
+
+.evaluation-area {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
